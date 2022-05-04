@@ -2,7 +2,7 @@
     "env": {
         "browser": true
     },
-    "extends": [ "airbnb/base", "plugin:prettier/recommended" ],
+    "extends": [ "airbnb/base" ],
     "rules": {
         "import/extensions": [0, { "<js>": "always" }]
       }
