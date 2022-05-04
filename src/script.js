@@ -1,3 +1,5 @@
+import Keyboard from './keyboard.js';
+
 const wrapper = document.createElement('div');
 const title = document.createElement('h1');
 const textarea = document.createElement('textarea');
@@ -13,6 +15,10 @@ wrapper.appendChild(textarea);
 wrapper.appendChild(keyboardElem);
 wrapper.appendChild(info);
 document.body.appendChild(wrapper);
+
+const keyboardObj = new Keyboard(keyboardElem, textarea);
+keyboardObj.keyboardGen();
+keyboardObj.addListeners();
 
 textarea.onblur = () => textarea.focus();
 textarea.focus();
