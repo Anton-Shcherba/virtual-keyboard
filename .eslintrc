@@ -4,6 +4,7 @@
     },
     "extends": [ "airbnb-base" ],
     "rules": {
+        "linebreak-style": ["error", "windows"],
         "import/extensions": [0, { "<js>": "always" }]
       }
 }
