@@ -319,8 +319,8 @@ export default [
   },
   {
     code: 'ArrowUp',
-    contents: { en: '⯅', ru: '⯅' },
-    shift: { en: '⯅', ru: '⯅' },
+    contents: { en: '▲', ru: '▲' },
+    shift: { en: '▲', ru: '▲' },
     character: { en: 'symbol', ru: 'symbol' },
   },
   {
@@ -355,20 +355,20 @@ export default [
   },
   {
     code: 'ArrowLeft',
-    contents: { en: '⯇', ru: '⯇' },
-    shift: { en: '⯇', ru: '⯇' },
+    contents: { en: '◄', ru: '◄' },
+    shift: { en: '◄', ru: '◄' },
     character: { en: 'symbol', ru: 'symbol' },
   },
   {
     code: 'ArrowDown',
-    contents: { en: '⯆', ru: '⯆' },
-    shift: { en: '⯆', ru: '⯆' },
+    contents: { en: '▼', ru: '▼' },
+    shift: { en: '▼', ru: '▼' },
     character: { en: 'symbol', ru: 'symbol' },
   },
   {
     code: 'ArrowRight',
-    contents: { en: '⯈', ru: '⯈' },
-    shift: { en: '⯈', ru: '⯈' },
+    contents: { en: '►', ru: '►' },
+    shift: { en: '►', ru: '►' },
     character: { en: 'symbol', ru: 'symbol' },
   },
   {
